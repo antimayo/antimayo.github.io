@@ -28,6 +28,10 @@ h6 {
   font-family: "Rounded Mplus 1c";
 }
 
+.gyo {
+  line-height: 200%;
+}
+
 hr.space{
   max-width: 15rem;
   padding: 0;
