@@ -33,8 +33,9 @@ div.line_space {
 }
 
 hr.space-light,
-hr.space-black{
-  max-width: 15rem;
+hr.space-dark{
+  max-width: 20rem;
+  height: 1rem;
   padding: 0;
   text-align: center;
   border: none;
