@@ -3,13 +3,28 @@ body {
   font-family: "Rounded Mplus 1c";
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1{
+  font-weight: 600;
+  font-family: "Rounded Mplus 1c";
+}
+h2{
+  font-weight: 500;
+  font-family: "Rounded Mplus 1c";
+}
+h3{
+  font-weight: 400;
+  font-family: "Rounded Mplus 1c";
+}
+h4{
+  font-weight: 300;
+  font-family: "Rounded Mplus 1c";
+}
+h5{
+  font-weight: 200;
+  font-family: "Rounded Mplus 1c";
+}
 h6 {
-  font-weight: 700;
+  font-weight: 100;
   font-family: "Rounded Mplus 1c";
 }
 
@@ -326,7 +341,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: rgb(20, 20, 20);
   color: #fff;
 }
 
