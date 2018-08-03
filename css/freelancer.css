@@ -32,7 +32,8 @@ div.line_space {
      line-height: 1.1;    /* 行間調整　高さを1.1倍にする */
 }
 
-hr.space{
+hr.space-light,
+hr.space-black{
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -42,6 +43,12 @@ hr.space{
   margin-bottom: 2.5rem;
   margin-left: auto;
   margin-right: auto;
+}
+hr.space-light {
+  border-color: #fff;
+}
+hr.space-dark {
+  border-color: rgb(32, 32, 32);
 }
 
 hr.star-light,
