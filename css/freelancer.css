@@ -28,8 +28,8 @@ h6 {
   font-family: "Rounded Mplus 1c";
 }
 
-.gyo {
-  line-height: 200%;
+.line_space {
+     line-height: 1.1;    /* 行間調整　高さを1.1倍にする */
 }
 
 hr.space{
