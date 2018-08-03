@@ -1,5 +1,6 @@
 body {
-  font-family: 'Lato';
+  font-weight: 200;
+  font-family: "Rounded Mplus 1c";
 }
 
 h1,
@@ -9,7 +10,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Rounded Mplus 1c";
 }
 
 hr.star-light,
@@ -42,15 +43,15 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: rgb(125, 28, 144);
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: rgb(32, 32, 32);
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: rgb(32, 32, 32);;
   background-color: white;
 }
 
@@ -117,7 +118,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: rgb(125, 28, 144);
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -125,7 +126,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: rgb(125, 28, 144);
 }
 
 #mainNav .navbar-toggler {
@@ -152,11 +153,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: rgb(125, 28, 144);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: rgb(125, 28, 144);
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -212,7 +213,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgb(125, 28, 144, 0.8);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -338,7 +339,7 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: rgb(125, 28, 144);
 }
 
 .btn {
@@ -346,7 +347,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: rgb(125, 28, 144) !important;
 }
 
 .bg-secondary {
@@ -354,7 +355,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: rgb(125, 28, 144) !important;
 }
 
 .text-secondary {
@@ -362,13 +363,13 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: rgb(125, 28, 144);
+  border-color: rgb(125, 28, 144);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: rgb(86, 42, 116);
+  border-color: rgb(86, 42, 116);
 }
 
 .btn-secondary {
