@@ -52,6 +52,76 @@ hr.space-dark {
   border-color: rgb(32, 32, 32);
 }
 
+.photo-show {
+    height: 280px; /*表示したい大きさ*/
+    margin: auto auto; /*縦余白30pxは任意*/
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    width: 440px; /*表示したい大きさ、height と合わせる*/
+}
+
+.photo-show img {
+    animation: show 16s infinite;
+    -webkit-animation: show 16s infinite;
+    max-height: auto;
+    max-width: 25rem;
+    height: 280px; /*表示したい大きさ*/
+    width: 400px;
+    opacity: 0;
+    position: absolute; /*画像を全て重ねる*/
+}
+
+/*アニメーション*/
+
+@keyframes show {
+    0% {opacity:0}
+    2% {opacity:1}
+    23% {opacity:1}
+    25% {opacity:0}
+ }
+
+@-webkit-keyframes show {
+    0% {opacity:0}
+    2% {opacity:1}
+    23% {opacity:1}
+    25% {opacity:0}
+}
+
+/*各画像のアニメーションの開始時間をずらす*/
+
+.photo-show img:nth-of-type(1) {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+.photo-show img:nth-of-type(2) {
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+}
+
+.photo-show img:nth-of-type(3) {
+    animation-delay: 8s;
+    -webkit-animation-delay: 8s;
+}
+
+.photo-show img:nth-of-type(4) {
+    animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+}
+
+/*マウスが画像に重なった際、動きを止めて四角くする*/
+
+.photo-show img {
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+}
+
+.photo-show:hover img {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
+
 section {
   padding: 6rem 0;
 }
@@ -210,11 +280,13 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
+  z-index: 200;
   background-color: rgb(125, 28, 144, 0.8);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
+  z-index: 200;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
