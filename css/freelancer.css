@@ -73,16 +73,21 @@ hr.space-dark {
 
 @keyframes show {
     0% {opacity:0}
-    5% {opacity:1}
-    95% {opacity:1}
-    100% {opacity:0}
+    3% {opacity:1}
+    22% {opacity:1}
+    25% {opacity:0}
  }
 
 @-webkit-keyframes show {
     0% {opacity:0}
-    5% {opacity:1}
-    95% {opacity:1}
-    100% {opacity:0}
+    3% {opacity:1}
+    22% {opacity:1}
+    25% {opacity:0}
+}
+
+.photo-show:hover img {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
 }
 
 /*各画像のアニメーションの開始時間をずらす*/
