@@ -74,15 +74,15 @@ hr.space-dark {
 @keyframes show {
     0% {opacity:0}
     5% {opacity:1}
-    10% {opacity:1}
-    20% {opacity:0}
+    95% {opacity:1}
+    100% {opacity:0}
  }
 
 @-webkit-keyframes show {
     0% {opacity:0}
     5% {opacity:1}
-    10% {opacity:1}
-    20% {opacity:0}
+    95% {opacity:1}
+    100% {opacity:0}
 }
 
 /*各画像のアニメーションの開始時間をずらす*/
