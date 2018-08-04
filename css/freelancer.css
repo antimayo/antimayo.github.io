@@ -52,45 +52,59 @@ hr.space-dark {
   border-color: rgb(32, 32, 32);
 }
 
-hr.star-light,
-hr.star-dark {
-  max-width: 15rem;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 0.25rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-  margin-left: auto;
-  margin-right: auto;
+.photo-show4 {
+    height: 440px; /*表示したい大きさ*/
+    margin: 30px auto; /*縦余白30pxは任意*/
+    max-width: 100%;
+    position: relative;
+    width: 440px; /*表示したい大きさ、height と合わせる*/
 }
 
-hr.star-light:after,
-hr.star-dark:after {
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  font-family: FontAwesome;
-  font-size: 2em;
+.photo-show4 img {
+    animation: show 12s infinite;
+    -webkit-animation: show 12s infinite;
+    height: auto;
+    max-width: 100%;
+    opacity: 0;
+    position: absolute; /*画像を全て重ねる*/
 }
 
-hr.star-light {
-  border-color: #fff;
+/*アニメーション*/
+
+@keyframes show {
+    0% {opacity:0}
+    5% {opacity:1}
+    10% {opacity:1}
+    20% {opacity:0}
+ }
+
+@-webkit-keyframes show {
+    0% {opacity:0}
+    5% {opacity:1}
+    10% {opacity:1}
+    20% {opacity:0}
 }
 
-hr.star-light:after {
-  color: #fff;
-  background-color: rgb(125, 28, 144);
+/*各画像のアニメーションの開始時間をずらす*/
+
+.photo-show img:nth-of-type(1) {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
 }
 
-hr.star-dark {
-  border-color: rgb(32, 32, 32);
+.photo-show img:nth-of-type(2) {
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
 }
 
-hr.star-dark:after {
-  color: rgb(32, 32, 32);;
-  background-color: white;
+.photo-show img:nth-of-type(3) {
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+}
+
+.photo-show img:nth-of-type(4) {
+    animation-delay: 6s;
+    -webkit-animation-delay: 6s;
 }
 
 section {
