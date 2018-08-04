@@ -61,8 +61,8 @@ hr.space-dark {
 }
 
 .photo-show img {
-    animation: show 12s infinite;
-    -webkit-animation: show 12s infinite;
+    animation: show 20s infinite;
+    -webkit-animation: show 20s infinite;
     height: auto;
     max-width: 100%;
     opacity: 0;
@@ -93,18 +93,18 @@ hr.space-dark {
 }
 
 .photo-show img:nth-of-type(2) {
-    animation-delay: 2s;
-    -webkit-animation-delay: 2s;
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
 }
 
 .photo-show img:nth-of-type(3) {
-    animation-delay: 4s;
-    -webkit-animation-delay: 4s;
+    animation-delay: 10s;
+    -webkit-animation-delay: 10s;
 }
 
 .photo-show img:nth-of-type(4) {
-    animation-delay: 6s;
-    -webkit-animation-delay: 6s;
+    animation-delay: 15s;
+    -webkit-animation-delay: 15s;
 }
 
 section {
