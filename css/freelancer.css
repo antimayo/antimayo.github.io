@@ -52,7 +52,7 @@ hr.space-dark {
   border-color: rgb(32, 32, 32);
 }
 
-.photo-show4 {
+.photo-show {
     height: 440px; /*表示したい大きさ*/
     margin: 30px auto; /*縦余白30pxは任意*/
     max-width: 100%;
@@ -60,7 +60,7 @@ hr.space-dark {
     width: 440px; /*表示したい大きさ、height と合わせる*/
 }
 
-.photo-show4 img {
+.photo-show img {
     animation: show 12s infinite;
     -webkit-animation: show 12s infinite;
     height: auto;
