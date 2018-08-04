@@ -52,19 +52,9 @@ hr.space-dark {
   border-color: rgb(32, 32, 32);
 }
 
-.photo-show {
-    height: 440px; /*表示したい大きさ*/
-    margin: 30px auto; /*縦余白30pxは任意*/
-    max-width: 100%;
-    position: relative;
-    width: 440px; /*表示したい大きさ、height と合わせる*/
-}
-
 .photo-show img {
     animation: show 20s infinite;
     -webkit-animation: show 20s infinite;
-    height: auto;
-    max-width: 100%;
     opacity: 0;
     position: absolute; /*画像を全て重ねる*/
 }
