@@ -85,11 +85,6 @@ hr.space-dark {
     25% {opacity:0}
 }
 
-.photo-show:hover img {
-    animation-play-state: paused;
-    -webkit-animation-play-state: paused;
-}
-
 /*各画像のアニメーションの開始時間をずらす*/
 
 .photo-show img:nth-of-type(1) {
