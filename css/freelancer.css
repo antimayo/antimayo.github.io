@@ -55,8 +55,8 @@ hr.space-dark {
 .photo-show {
     height: 280px; /*表示したい大きさ*/
     margin: auto auto; /*縦余白30pxは任意*/
-    min-width: 100%;
-    min-height: 100%;
+    min-width: inherit;
+    min-height: inherit;
     position: relative;
     width: 440px; /*表示したい大きさ、height と合わせる*/
 }
@@ -66,8 +66,6 @@ hr.space-dark {
     -webkit-animation: show 16s infinite;
     max-height: auto;
     max-width: 25rem;
-    height: 280px; /*表示したい大きさ*/
-    width: 400px;
     opacity: 0;
     position: absolute; /*画像を全て重ねる*/
 }
